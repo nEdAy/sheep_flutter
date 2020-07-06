@@ -1,4 +1,4 @@
-package cn.neday.sheep_flutter
+package cn.neday.sheep
 
 import io.flutter.embedding.android.FlutterActivity
 
