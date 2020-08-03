@@ -1,4 +1,4 @@
-name: Dart CI
+name: Flutter CI
 
 on:
   push:
@@ -8,11 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    container:
-      image:  google/dart:latest
+    runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
     - uses: actions/setup-java@v1
       with:
         java-version: '12.x'
